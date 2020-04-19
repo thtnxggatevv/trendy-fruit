@@ -29,7 +29,7 @@ body {
 }
 
 .three h2 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: Comfortaa, sans-serif;
 }
 
 .one {
@@ -39,12 +39,13 @@ body {
 .two {
   background-color: #fbd25e;
 }
+
 .three {
   background-color: #e86033;
 }
 
-p {
-font-family: 'Open Sans', sans-serif;
+  p {
+font-family: "Open Sans", sans-serif;
 }
 
 /* font-family: "Open Sans", sans-serif;
