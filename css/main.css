@@ -1,5 +1,12 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
+
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -10,45 +17,34 @@ html {
   box-sizing: inherit;
 }
 
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 body {
   margin: 0;
-}
-
-.one h2 {
-  font-family: "Rammetto One", cursive;
-}
-
-.two h2 {
-  font-family: "Gravitas One", cursive;
-}
-
-.three h2 {
-  font-family: Comfortaa, sans-serif;
-}
-
-.one {
-  background-color: #e97065;
-}
-
-.two {
-  background-color: #fbd25e;
-}
-
-.three {
-  background-color: #e86033;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
 }
 
-/* font-family: "Open Sans", sans-serif;
-font-family: "Gravitas One", cursive;
-font-family: "Rammetto One", cursive;
-font-family: "Comfortaa", cursive; */
+.gravitas {
+  font-family: "Gravitas One", cursive;
+}
+
+.rammetto {
+  font-family: "Rammetto One", cursive;
+}
+
+.comfortaa {
+  font-family: Comfortaa, cursive;
+}
+
+.section-1 {
+  background-color: #e97065;
+}
+
+.section-2 {
+  background-color: #fbd25e;
+}
+
+.section-3 {
+  background-color: #e86033;
+}
