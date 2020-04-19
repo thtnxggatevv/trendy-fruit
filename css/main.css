@@ -21,15 +21,15 @@ body {
 }
 
 .one h2 {
-  font-family: 'Rammetto One', cursive;
+  font-family: "Rammetto One", cursive;
 }
 
 .two h2 {
-  font-family: 'Gravitas One', cursive;
+  font-family: "Gravitas One", cursive;
 }
 
 .three h2 {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
 .one {
@@ -47,7 +47,7 @@ p {
 font-family: 'Open Sans', sans-serif;
 }
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Gravitas One', cursive;
-font-family: 'Rammetto One', cursive;
-font-family: 'Comfortaa', cursive; */
+/* font-family: "Open Sans", sans-serif;
+font-family: "Gravitas One", cursive;
+font-family: "Rammetto One", cursive;
+font-family: "Comfortaa", cursive; */
